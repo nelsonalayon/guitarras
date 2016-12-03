@@ -36,3 +36,15 @@ article h3
   background: salmon;
 
 }
+
+/*selector de id*/
+
+#header{
+  border: 3px solid black;
+}
+#portada{
+border: 3px solid orange;
+}
+#guitarras{
+border: 3px solid brown;
+}
