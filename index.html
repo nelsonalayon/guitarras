@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="css/invie.css">
   </head>
   <body>
-    <header id="header" class="header"> <!--header-->
+    <header id="header" class="header contenedor"> <!--header-->
 
        <figure class="logotipo"> <!-- logotipo -->
          <img src="images/invie.png" width="186" height=60"" alt="Inivie logotipo">
@@ -26,31 +26,37 @@
         </ul>
       </nav>
     </header>
-    <section id="portada" class="portada">
-      <!-- portada -->
+  <section id="portada" class="portada"><!-- portada -->
+      <div class="contenedor">
+
       <h1 class="titulo">Guitarras inviesibles</h1>  <!-- titulo -->
       <h3 class="title-a">Se la estrella de rock que siempre quisiste ser</h3> <!-- resumen -->
       <button>Conoce mas</button>      <!-- boton -->
-    </section>
-    <section id="guitarras" class="guitarras">     <!-- Guitarras -->
+    </div>
+  </section>
+    <section id="guitarras" class="guitarras contenedor">     <!-- Guitarras -->
       <h2>Nuestras guitarras</h2>
       <article class="guitarra"> <!-- Guitarra 1 -->
-        <img src="images/invie-acustica.png" width="200" alt="Guitarra invie Acústica">
-        <h3 class="title-b">Invie Acústica</h3>
+        <img class="derecha" src="images/invie-acustica.png" width="350" alt="Guitarra invie Acústica">
+        <div class="contenedor-guitarra-a">
+          <h3 class="title-b">Invie Acústica</h3>
         <ol>
           <li>Estilo Vintage</li>
           <li>Madera pura</li>
           <li>Incluye estilo invisible  de aluminio</li>
         </ol>
+      </div>
       </article>
       <article class="guitarra"> <!-- Guitarra 2 -->
-        <img src="images/invie-classic.png" width="200" alt="Guitarra invie classic">
+        <img class="izquierda" src="images/invie-classic.png" width="350" alt="Guitarra invie classic">
+        <div class="contenedor-guitarra-b">
         <h3 class="title-b">Invie Classic</h3>
         <ol>
           <li>Estilo Vintage</li>
           <li>Liviana</li>
           <li>Inicia tu camino como rockstar</li>
         </ol>
+        </div>
       </article>
 
       <!-- titulo
